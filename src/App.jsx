@@ -4,7 +4,7 @@ import UsersLinks from "./components/UsersLinks"
 function App() {
 
   return (
-    <section className="text-white py-1 bg-Dark-Grey md:w-6/12 w-11/12  flex flex-col font-inter items-center justify-center h-5/6 rounded-md">
+    <section className="text-white py-1 bg-Dark-Grey md:w-5/12 w-10/12  flex flex-col font-inter items-center justify-center h-5/6 rounded-md">
       <div className="w-5/6 h-1/3 flex flex-col  items-center justify-center">
         <img 
           src="../public/profile-david.jpg" 
@@ -15,7 +15,7 @@ function App() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-around h-4/6 w-5/6">
+      <div className="flex flex-col items-center pb-1 justify-around h-4/6 w-5/6">
         <UsersLinks/>
       </div>
     </section>
