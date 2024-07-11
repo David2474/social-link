@@ -36,7 +36,7 @@ export default function UsersLinks() {
         return(
           <p 
             key={link.id}
-            className="bg-Grey hover:bg-zinc-900 md:p-2 p-[10px]  md:w-11/12 w-5/6 rounded-md flex flex-col justify-center items-center">
+            className="bg-Grey hover:bg-zinc-900 md:p-2 p-[10px]  md:w-11/12 w-5/6 md:text-base text-lg rounded-md flex flex-col justify-center items-center">
             <a href={link.link}>{link.title}</a>
           </p>
         )
